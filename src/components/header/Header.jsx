@@ -17,7 +17,7 @@ function Header() {
               <a className={appStyles.links} href="#">
                 Home
               </a>
-              <a className={appStyles.links} href="about-us">
+              <a className={appStyles.links} href="#">
                 About
               </a>
               <a className={appStyles.links} href="#">

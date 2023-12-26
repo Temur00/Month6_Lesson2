@@ -3,12 +3,12 @@ import "./Hero.scss";
 import {
   heroPic,
   houseCleaning,
-  // vacuumBest,
+  vacuumBest,
   getYourHouse,
   industryCleaning,
   officeCleaning,
   payOnline,
-  // disinfect,
+  disinfect,
   schedule,
   womenFlowers,
 } from "../../assets/images";
@@ -176,6 +176,49 @@ function Hero() {
                     <p>Call us now</p>
                     <p>(414) 567 - 2109</p>
                   </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div className="container">
+          <div className="fifth-items">
+            <div className="texts">
+              <p>Articles & resources</p>
+              <div className="s-buttons">
+                <button className="first">Get a free quote</button>
+                <button className="second">Explore services</button>
+              </div>
+            </div>
+            <div className="images-info">
+              <div className="f-card1">
+                <img src={disinfect} alt="img" />
+                <div className="card-item">
+                  <p>
+                    8 best vacuum cleaners to clean any mess for your home in
+                    2022
+                  </p>
+                  <p>
+                    Lorem ipsum dolor sit amet conse ctetur adip iscing elit
+                    justo quis odio sit sit ac port titor sit males.
+                  </p>
+                  <p>Jan 28, 2022</p>
+                </div>
+              </div>
+              <div className="f-card1">
+                <img src={vacuumBest} alt="img" />
+                <div className="card-item">
+                  <p>
+                    8 best vacuum cleaners to clean any mess for your home in
+                    2022
+                  </p>
+                  <p>
+                    Lorem ipsum dolor sit amet conse ctetur adip iscing elit
+                    justo quis odio sit sit ac port titor sit males.
+                  </p>
+                  <p>Jan 28, 2022</p>
                 </div>
               </div>
             </div>
