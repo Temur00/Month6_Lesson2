@@ -2,11 +2,11 @@ import React from "react";
 import "./Hero.scss";
 import {
   heroPic,
-  // houseCleaning,
+  houseCleaning,
   // vacuumBest,
   getYourHouse,
-  // industryCleaning,
-  // officeCleaning,
+  industryCleaning,
+  officeCleaning,
   payOnline,
   // disinfect,
   schedule,
@@ -97,6 +97,42 @@ function Hero() {
             <div className="s-buttons">
               <button className="first">Get a free quote</button>
               <button className="second">Explore services</button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div className="container">
+          <div className="third-items">
+            <div className="texts">
+              <p>Our Services</p>
+              <button className="second">Explore services</button>
+            </div>
+            <div className="s-cards">
+              <div className="s-card">
+                <img src={houseCleaning} alt="Img" />
+                <p className="schedule">House cleaning</p>
+                <p>
+                  Lorem ipsum dolor sit amet consecte tur adipiscing elit semper
+                  dalaracc lacus vel facilisis volutpat est.
+                </p>
+              </div>
+              <div className="s-card">
+                <img src={officeCleaning} alt="Img" />
+                <p className="payOnline">Office cleaning</p>
+                <p>
+                  Lorem ipsum dolor sit amet consecte tur adipiscing elit semper
+                  dalaracc lacus vel facilisis volutpat est.
+                </p>
+              </div>
+              <div className="s-card">
+                <img src={industryCleaning} alt="Img" />
+                <p className={industryCleaning}>Industrial cleaning</p>
+                <p>
+                  Lorem ipsum dolor sit amet consecte tur adipiscing elit semper
+                  dalaracc lacus vel facilisis volutpat est.
+                </p>
+              </div>
             </div>
           </div>
         </div>
