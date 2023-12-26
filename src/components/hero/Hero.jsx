@@ -4,12 +4,12 @@ import {
   heroPic,
   // houseCleaning,
   // vacuumBest,
-  // getYourHouse,
+  getYourHouse,
   // industryCleaning,
   // officeCleaning,
-  // payOnline,
+  payOnline,
   // disinfect,
-  // schedule,
+  schedule,
   // womenFlowers,
 } from "../../assets/images";
 
@@ -56,6 +56,48 @@ function Hero() {
               </div>
             </div>
             <img src={heroPic} alt="Hero" />
+          </div>
+        </div>
+      </section>
+      <section>
+        <div className="container">
+          <div className="second-items">
+            <p id="about-us">About Us</p>
+            <p>
+              Sagittis nibh scelerisque vitae eget vulputate sem elementum sed
+              neque nisi felis non ultrices massa id egestas quam velit pretium
+              nu.
+            </p>
+            <div className="s-cards">
+              <div className="s-card">
+                <img src={schedule} alt="Img" />
+                <p className="schedule">1. Schedule online</p>
+                <p>
+                  Sagittis nibh scelerisque vitae egetolment vulputate sem
+                  elementum sed n.
+                </p>
+              </div>
+              <div className="s-card">
+                <img src={payOnline} alt="Img" />
+                <p className="payOnline">2. Pay online easily</p>
+                <p>
+                  Sagittis nibh scelerisque vitae egetolment vulputate sem
+                  elementum sed n.
+                </p>
+              </div>
+              <div className="s-card">
+                <img src={getYourHouse} alt="Img" />
+                <p className={schedule}>3. Get your house cleaned</p>
+                <p>
+                  Sagittis nibh scelerisque vitae egetolment vulputate sem
+                  elementum sed n.
+                </p>
+              </div>
+            </div>
+            <div className="s-buttons">
+              <button className="first">Get a free quote</button>
+              <button className="second">Explore services</button>
+            </div>
           </div>
         </div>
       </section>
