@@ -1,5 +1,5 @@
-import Header from './header/Header';
-import Footer from './footer/Footer';
-import Hero from './hero/Hero';
+import Header from "./header/Header";
+import Hero from "./hero/Hero";
+import Footer from "./footer/Footer";
 
-export { Hero, Header, Footer };
+export { Header, Hero, Footer };

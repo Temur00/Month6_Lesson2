@@ -1,0 +1,107 @@
+/* 55: 37 daqiqada dark mode;
+ 1:00:00 daqiqa module.css */
+:root {
+  --color-main: #211f54;
+  --color-main-blue: #0075ff;
+  --color-white: #fff;
+  --color-black: #000;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  background: #ededed;
+}
+
+.navItems {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 110px;
+  padding-right: 110px;
+}
+
+.mainLogo {
+  padding-top: 38px;
+  padding-bottom: 38px;
+}
+
+.navItem {
+  display: flex;
+  gap: 22px;
+}
+
+.links {
+  text-decoration: none;
+  color: var(--color-main);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30.006px; /* 166.7% */
+  border-bottom: 2px solid #ededed;
+  transition: 0.4s;
+}
+.links:hover {
+  border-bottom: 2px solid var(--color-main);
+}
+
+.navButtons {
+  display: flex;
+  gap: 24px;
+}
+
+.buttonHeader {
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-top: 17px;
+  padding-bottom: 19px;
+  color: var(--color-main-blue);
+  text-align: center;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px; /* 112.5% */
+  transition: 0.4s;
+  border-radius: 14px;
+  border: 2px solid var(--color-main-blue);
+  cursor: pointer;
+}
+
+.buttonHeader:hover {
+  color: var(--color-white);
+  background: var(--color-main-blue);
+}
+.hamburger {
+  display: none;
+}
+.ham {
+  color: var(--color-black);
+}
+
+@media only screen and (max-width: 1200px) {
+  .navItems {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+}
+@media only screen and (max-width: 900px) {
+  .links {
+    display: none;
+  }
+  .hamburger {
+    display: block;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .mainLogo {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .navButtons {
+    display: none;
+  }
+}

@@ -1,6 +1,6 @@
-import React from 'react';
-import './scss/main.scss';
-import { Home } from './pages';
+import React from "react";
+import { Home } from "./pages";
+import "./scss/main.scss";
 
 const App = () => {
   return (

@@ -1,12 +1,12 @@
-import React from 'react';
-import './Footer.scss';
+import React from "react";
+import "./Footer.scss";
 
-const Footer = () => {
+function Footer() {
   return (
     <div>
-      <h1>Footer component</h1>
+      <h3>Footer</h3>
     </div>
   );
-};
+}
 
 export default Footer;
